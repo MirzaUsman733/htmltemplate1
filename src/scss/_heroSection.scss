@@ -1,0 +1,105 @@
+#bs{
+    background-image: url("../assets/image1.jpg");
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    overflow-x: hidden;
+}
+.heroDivFirst{
+    background-color: rgba($color: rgb(0, 0, 0), $alpha: 0.5);
+}
+.heroDiv{
+    position: absolute;
+    top: 40vh;
+    left: 17vw;
+    right: 17vw;
+}
+.heroheading1{
+    font-size: 68px;
+    margin: 0px 80px;
+}
+.heroBtn{
+    padding: 10px 40px;
+    text-transform: uppercase;
+    color: white;
+}
+@media screen and (max-width: 1320px ) {
+    #bs{
+        max-width: 1320px;
+        overflow-x: hidden;
+    }
+    .heroDiv{
+        top: 40vh;
+        left: 15vw;
+        right: 15vw;
+    }
+    
+}
+@media screen and (max-width: 1190px ) {
+    .heroDiv{
+        top: 40vh;
+        left: 10vw;
+        right: 10vw;
+    }
+    .heroheading1{
+        font-size: 50px;
+        margin: 0px 100px;
+    }
+}
+@media screen and (max-width: 1000px ) {
+    .heroDiv{
+        top: 40vh;
+        left: 8vw;
+        right: 8vw;
+    }
+    .heroheading1{
+        font-size: 50px;
+        margin: 0px 100px;
+    }
+}
+@media screen and (max-width: 850px ) {
+    .heroDiv{
+        top: 30vh;
+        left: 8vw;
+        right: 8vw;
+    }
+    .heroheading1{
+        font-size: 50px;
+        margin: 0px 70px;
+    }
+}
+@media screen and (max-width: 770px ) {
+    .heroDiv{
+        top: 30vh;
+        left: 8vw;
+        right: 8vw;
+    }
+    .heroheading1{
+        font-size: 40px;
+        margin: 0px 60px;
+    }
+}
+@media screen and (max-width: 620px ) {
+    .heroDiv{
+        top: 20vh;
+        left: 5vw;
+        right: 5vw;
+    }
+    .heroheading1{
+        font-size: 32px;
+        margin: 0px 30px;
+    }
+}
+@media screen and (max-width: 350px ) {
+    .heroDiv{
+        top: 13vh;
+        left: 4vw;
+        right: 4vw;
+    }
+    .heroheading1{
+        font-size: 25px;
+        margin: 0px 20px;
+    }
+}

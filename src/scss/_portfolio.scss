@@ -1,0 +1,111 @@
+.portfolio{
+    min-height: 100vh;
+}
+.portfolioUpperDiv{
+    height: 150vh;
+    background-color: rgb(13, 36, 75);
+}
+.portfolioLowerDiv{
+    height: 60vh;
+    background-color: rgb(241, 197, 14);
+}
+.portfolioImages{
+    width: 250px;
+    height: 310px;
+    box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.3),0px 10px 15px -3px rgba(0,0,0,0.3);
+}
+.portfoliosecondDiv{
+    background-color: white;
+    box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.3),0px 10px 15px -3px rgba(0,0,0,0.3);
+    min-height: 200px;
+    border-radius: 20px;
+    padding: 20px;
+}
+.portfolioIcons{
+    display: inline-block;
+    height: 80px;
+    width: 80px;
+    background-color: rgb(241, 197, 14);
+    color: white;
+    box-shadow: 16px -22px 35px -4px rgb(241, 197, 14),0px -4px 15px -3px rgb(241, 197, 14,0.5);
+}
+.portfolioCol2{
+    margin-top: 50px;
+}
+.portfolioCol4{
+    margin-top: 50px;
+}
+@media screen and (max-width: 1200px ) {
+    .portfolio{
+        min-height: 150vh;
+    }
+    .portfolioImages{
+        width: 220px;
+    }
+}
+@media screen and (max-width: 990px ) {
+    .portfolioImages{
+        width: 330px;
+    }
+    .portfolioUpperDiv{
+        height: 320vh;
+        background-color: rgb(13, 36, 75);
+    }
+    .portfolioLowerDiv{
+        height: 100vh;
+        background-color: rgb(241, 197, 14);
+    }
+    .portfolioCol2{
+        margin-top: 0px;
+    }
+    .portfolioCol4{
+        margin-top: 30px;
+    }
+    .portfolioCol3{
+        margin-top: 30px;
+
+    }
+}
+@media screen and (max-width: 768px ) {
+    .portfolioImages{
+        width: 250px;
+    }
+}
+@media screen and (max-width: 570px ) {
+
+    .portfolioImages{
+        width: 270px;
+    }
+    .portfolioCol2{
+        margin-top: 30px;
+    }
+    .portfolioUpperDiv{
+        height: 600vh;
+        background-color: rgb(13, 36, 75);
+    }
+    .portfolioLowerDiv{
+        height: 120vh;
+        background-color: rgb(241, 197, 14);
+    }
+    .portfolioDiv5{
+        margin-top: 30px;
+    }
+    .portfoliosecondDiv{
+       width: 270px;
+       margin: auto;
+    }
+}
+
+// @media screen and (max-width: 990px ) {
+//     .portfolioCol2{
+//         margin-top: 30px;
+//     }
+//     .portfolioUpperDiv{
+//         height: 320vh;
+//         background-color: rgb(13, 36, 75);
+//     }
+//     .portfolioLowerDiv{
+//         height: 100vh;
+//         background-color: rgb(241, 197, 14);
+//     }
+// }

@@ -1,0 +1,26 @@
+.coursesLi{
+    font-size: 1.25rem;
+    line-height: 2;
+}
+.coursesPara{
+    margin: 40px 120px;
+    font-size: 1rem;
+}
+.imgCourses{
+    max-width: 500px;
+}
+.coursesHeading{
+    padding: 0px 50px;
+}
+@media screen and (max-width: 1000px ) {
+    .imgCourses{
+        max-width: 340px;
+    }
+    .coursesPara{
+        margin: 40px 50px;
+        font-size: 1rem;
+    }
+    .coursesHeading{
+        padding: 0px 5px;
+    }
+}

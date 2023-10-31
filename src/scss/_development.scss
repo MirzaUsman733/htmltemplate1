@@ -1,0 +1,267 @@
+.development{
+    margin-top: 100px;
+    min-height: 100vh;
+    background: linear-gradient(to top, transparent 50%, rgb(13, 36, 75) 50%);
+}
+.developmentImg1{
+    max-width: 80vw;
+}
+.developmentDiv1{
+    position: relative;
+}
+.developmentDiv2{
+    min-height: 300px;
+    position: absolute;
+    left: 50px;
+    top: 450px;
+}
+.developmentUnderDiv{
+    background-color: white;
+    min-height: 200px;
+    width: 280px;
+    box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.3),0px 10px 15px -3px rgba(0,0,0,0.3);
+    border-radius: 22px;
+    padding-bottom: 20px;
+}
+.developmentImg{
+    border-radius: 50%;
+    max-width: 165px;
+    height: 150px;
+}
+.developmentSpan{
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin: 25px 0 25px 0px;
+}
+@media screen and (max-width: 1470px) {
+    .development{
+        min-height: 160vh;
+    }
+    .developmentDiv2{
+        min-height: 300px;
+        left: 80px;
+        top: 450px;
+    }
+    
+}
+@media screen and (max-width: 1200px) {
+    .development{
+        min-height: 180vh;
+    }
+    .developmentDiv2{
+        left: 50px;
+        top: 350px;
+    }
+    .developmentUnderDiv{
+        min-height: 200px;
+        width: 250px;
+        padding-bottom: 20px;
+    }
+    .developmentImg{
+        max-width: 150px;
+        height: 150px;
+    }
+}
+@media screen and (max-width: 1030px) {
+    .development{
+        min-height: 180vh;
+    }
+    .developmentDiv2{
+        left: 70px;
+        top: 320px;
+    }
+    .developmentUnderDiv{
+        min-height: 200px;
+        width: 230px;
+        padding-bottom: 20px;
+    }
+    .developmentImg{
+        max-width: 150px;
+        height: 150px;
+    }
+}
+@media screen and (max-width: 992px) {
+    .development{
+        min-height: 180vh;
+    }
+    .developmentDiv2{
+        left: 70px;
+        top: 320px;
+    }
+    .developmentUnderDiv{
+        min-height: 200px;
+        width: 300px;
+        padding-bottom: 20px;
+    }
+    .developmentImg{
+        max-width: 170px;
+        height: 150px;
+    }
+    .developmentLastDiv{
+        margin-top: 20px;
+    }
+}
+@media screen and (max-width: 900px) {
+    .development{
+        min-height: 180vh;
+    }
+    .developmentDiv2{
+        left: 25px;
+        top: 250px;
+    }
+    .developmentUnderDiv{
+        min-height: 200px;
+        width: 280px;
+        padding-bottom: 20px;
+    }
+    .developmentImg{
+        max-width: 170px;
+        height: 150px;
+    }
+    .developmentLastDiv{
+        margin-top: 20px;
+    }
+}
+@media screen and (max-width: 780px) {
+    .development{
+        min-height: 180vh;
+    }
+    .developmentDiv2{
+        left: 20px;
+        top: 250px;
+    }
+    .developmentUnderDiv{
+        min-height: 170px;
+        width: 220px;
+        padding-bottom: 20px;
+    }
+    .developmentImg{
+        max-width: 140px;
+        height: 130px;
+    }
+    .developmentLastDiv{
+        margin-top: 20px;
+    }
+}
+@media screen and (max-width: 700px) {
+    .development{
+        min-height: 180vh;
+    }
+    .developmentDiv2{
+        left: 20px;
+        top: 200px;
+    }
+    .developmentUnderDiv{
+        min-height: 170px;
+        width: 220px;
+        padding-bottom: 10px;
+    }
+    .developmentImg{
+        max-width: 140px;
+        height: 130px;
+    }
+    .developmentLastDiv{
+        margin-top: 20px;
+    }
+}
+@media screen and (max-width: 600px) {
+    .development{
+        min-height: 180vh;
+    }
+    .developmentDiv2{
+        left: 10px;
+        top: 200px;
+    }
+    .developmentUnderDiv{
+        min-height: 170px;
+        width: 200px;
+        padding-bottom: 10px;
+    }
+    .developmentImg{
+        max-width: 130px;
+        height: 120px;
+    }
+    .developmentLastDiv{
+        margin-top: 20px;
+    }
+}
+@media screen and (max-width: 568px) {
+    .development{
+        min-height: 180vh;
+    }
+    .developmentDiv2{
+        left: 80px;
+        top: 150px;
+    }
+    .developmentUnderDiv{
+        min-height: 200px;
+        width: 300px;
+        padding-bottom: 10px;
+        margin-bottom: 20px;
+    }
+    .developmentImg{
+        max-width: 160px;
+        height: 140px;
+    }
+    
+}
+@media screen and (max-width: 500px) {
+    .development{
+        min-height: 180vh;
+    }
+    .developmentDiv2{
+        left: 80px;
+        top: 130px;
+    }
+    .developmentUnderDiv{
+        min-height: 130px;
+        width: 250px;
+        padding-bottom: 5px;
+        margin-bottom: 10px;
+    }
+    .developmentImg{
+        max-width: 130px;
+        height: 100px;
+    }
+    
+}
+@media screen and (max-width: 400px) {
+    .development{
+        min-height: 180vh;
+    }
+    .developmentDiv2{
+        left: 40px;
+        top: 120px;
+    }
+    .developmentUnderDiv{
+        min-height: 130px;
+        width: 220px;
+        padding-bottom: 5px;
+        margin-bottom: 10px;
+    }
+    .developmentImg{
+        max-width: 130px;
+        height: 100px;
+    }
+    
+}
+@media screen and (max-width: 330px) {
+    .development{
+        min-height: 200vh;
+    }
+    .developmentDiv2{
+        left: 20px;
+        top: 120px;
+    }
+    .developmentUnderDiv{
+        min-height: 130px;
+        width: 200px;
+        padding-bottom: 5px;
+        margin-bottom: 10px;
+    }
+    .developmentImg{
+        max-width: 130px;
+        height: 100px;
+    }
+    
+}
